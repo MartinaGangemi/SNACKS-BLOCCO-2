@@ -4,7 +4,7 @@ i=0
 somma=0
 while(i < numbersList.length){
     let number = parseInt(numbersList[i])
-    if(i % 2 == 0){
+    if(i % 2 != 0){
         somma += number
     }
 
